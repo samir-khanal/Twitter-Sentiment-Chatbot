@@ -14,3 +14,7 @@ The dataset used in this project is available on Kaggle:
 - Sentiment analysis of tweets (positive, negative, neutral)
 - Interactive chatbot interface using Streamlit
 - Model training and evaluation using NLP libraries (e.g., NLTK, Scikit-learn etc)
+### How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Twitter-Sentiment-Chatbot
