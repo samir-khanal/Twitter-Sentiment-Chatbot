@@ -1,0 +1,5 @@
+env/
+__pycache__/
+.ipynb_checkpoints/
+tweets.csv
+cleaned_tweets.csv
