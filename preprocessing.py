@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 
 nltk.download('stopwords')
 nltk.download('punkt')
-
+nltk.download('punkt_tab')
 # Load dataset
 df = pd.read_csv("Tweets.csv")
 # checking dataset
