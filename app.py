@@ -1,7 +1,14 @@
 import streamlit as st
 from model import predict_sentiment
 import nltk
-nltk.download('punkt_tab') # This ensures punkt is downloaded when the app starts
+import os
+
+# ✅ Ensure NLTK uses the correct directory for downloads
+nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
+
+# ✅ Force download the correct resource
+nltk.download('punkt', download_dir=os.path.join(os.getcwd(), "nltk_data"))
+nltk.download('stopwords', download_dir=os.path.join(os.getcwd(), "nltk_data"))
 
 # Streamlit UI
 st.title("Twitter Sentiment Chatbot 🤖")
