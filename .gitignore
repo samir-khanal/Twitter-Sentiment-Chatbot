@@ -3,5 +3,5 @@ __pycache__/
 .ipynb_checkpoints/
 tweets.csv
 cleaned_tweets.csv
-nltk_data/
+#nltk_data/
 *.ipynb
