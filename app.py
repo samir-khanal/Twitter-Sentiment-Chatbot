@@ -1,5 +1,7 @@
 import streamlit as st
 from model import predict_sentiment
+import nltk
+nltk.download('punkt')  # This ensures punkt is downloaded when the app starts
 
 # Streamlit UI
 st.title("Twitter Sentiment Chatbot 🤖")
